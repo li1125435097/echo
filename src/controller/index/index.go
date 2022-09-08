@@ -10,7 +10,7 @@ func index(c echo.Context) error {
 }
 
 func Init(server *echo.Echo)  {
-	server.GET("/", index)
+	server.GET("/index", index)
 }
 
 

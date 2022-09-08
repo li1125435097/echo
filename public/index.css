@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: #000; */
+}
+.text{
+  font-size: 80px;
+  /* animation:mymove 20s ease infinite; */
+  box-shadow: 0 0 35px inset;
+  padding: 25px 50px;
+  border-radius: 5px;
+}
+
+@keyframes mymove
+{
+  0% {color:red;}
+  10% {color:orange;}
+  20% {color:yellow;}
+  30% {color:green;}
+  40% {color:blue;}
+  50% {color:aqua;}
+  60% {color:purple;}
+  70% {color:aqua;}
+  80% {color:blue;}
+  90% {color:green;}
+  100% {color:red;}
+}
+@-webkit-keyframes mymove
+{
+  0% {color:red;}
+  10% {color:orange;}
+  20% {color:yellow;}
+  30% {color:green;}
+  40% {color:blue;}
+  50% {color:aqua;}
+  60% {color:purple;}
+  70% {color:aqua;}
+  80% {color:blue;}
+  90% {color:green;}
+  100% {color:red;}
+}

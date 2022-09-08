@@ -15,6 +15,11 @@ var l = fmt.Println
 func main() {
 	// 创建服务器
 	server := echo.New()
+	
+	// 主页图标配置
+	server.Static("/", "public")
+	server.File("/", "public/index.html")
+	server.File("/favicon.ico", "public/favicon.ico")
 
 	// 路由注册
 	index.Init(server)

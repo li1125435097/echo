@@ -5,11 +5,11 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* background-color: #000; */
+  background-color: #000;
 }
 .text{
   font-size: 80px;
-  /* animation:mymove 20s ease infinite; */
+  animation:mymove 20s ease infinite;
   box-shadow: 0 0 35px inset;
   padding: 25px 50px;
   border-radius: 5px;

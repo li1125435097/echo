@@ -13,10 +13,6 @@ else
   echo "项目mod开启检测：无异常"
 fi
 
-
-
-
-
 # 项目位置检测
 goPath=`go env GOPATH`
 expectWorkPlace="$goPath/src"
